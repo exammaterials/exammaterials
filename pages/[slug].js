@@ -1,11 +1,11 @@
-import Home from "../../containers/Home";
-import { getPostBySlug, getAllPosts } from "../../lib/api";
-import MetaHead from "../../components/MetaHead";
-import PostContent from "../../components/PostContent";
-import PostTitle from "../../components/PostTitle";
-import PostDetails from "../../components/PostDetails";
-import PostCoverImage from "../../components/PostCoverImage";
-import metaData from "../../lib/data";
+import Home from "../containers/Home";
+import { getPostBySlug, getAllPosts } from "../lib/api";
+import MetaHead from "../components/MetaHead";
+import PostContent from "../components/PostContent";
+import PostTitle from "../components/PostTitle";
+import PostDetails from "../components/PostDetails";
+import PostCoverImage from "../components/PostCoverImage";
+import metaData from "../lib/data";
 
 export default function Post({ post }) {
     return (
